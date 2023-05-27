@@ -1,0 +1,78 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  display:flex
+}
+
+/* left side */
+
+.left {
+  border: 2px solid black;
+  background-color: rgb(0, 149, 255);
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.selfie {
+  border: 2px solid white;
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+
+}
+
+.profileContainer {
+  border: 2px solid orange; width: 85%;
+}
+.profileContainer >p {
+  border: 2px solid grey;
+  margin: 2px;
+
+ 
+}
+.profileContainer > h5 {
+  border: 2px solid red;
+  margin: 2px;
+  font-weight: bold;
+  font-size: 1.25em;
+
+}
+
+
+.contactContainer {
+  border: 2px solid yellowgreen; width: 85%;
+}
+
+.icon {
+  height: 22px;
+  width: 22px;
+}
+
+/* left side end */
+
+
+/* right side */
+
+.right {
+  border: 2px solid black; 
+}
+.nameContainer {
+  border: 2px solid blue;
+}
+.eduContainer {
+  border: 2px solid green;
+}
+.languageContainer {
+  border: 2px solid purple;
+}
+.computerContainer {
+  border: 2px solid turquoise;
+}
+.volunteerContainer {
+  border: 2px solid brown;
+}
